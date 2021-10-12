@@ -11,3 +11,15 @@ CubeExtracter
   - DotNetSeleniumExtras.WaitHelpers      3.11.0
 
 - Google Chrome 94.0.4606.81
+
+- - -
+## How to Use
+[Program name] [CubeKey]
+
+- CubeKey
+  - red (레드 큐브)
+  - black (블랙 큐브)
+  - addi (에디셔널 큐브)
+  - strange (수상한 큐브)
+  - master (장인의 큐브)
+  - artisan (명장의 큐브)
