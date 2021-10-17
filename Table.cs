@@ -16,12 +16,12 @@ struct CubeTable
     public List<CubeOption> SecondLineOptions { get; set; }
     public List<CubeOption> ThirdLineOptions { get; set; }
 	
-    public void SerializeThis(string path, string filename)
+    public void SerializeThis(in string path, in string filename)
     {
         if (!Directory.Exists(path))
             Directory.CreateDirectory(path);
-			
-        File.WriteAllText(path + '/' + filename, JsonSerializer.Serialize(this, new JsonSerializerOptions
+
+        File.WriteAllText($"{path}/{filename}", JsonSerializer.Serialize(this, new JsonSerializerOptions
         {
             Encoder = JavaScriptEncoder.UnsafeRelaxedJsonEscaping, //이스케이프시퀀스 작동하게
             WriteIndented = true, //줄바꿈 등 보기좋게
