@@ -13,28 +13,30 @@ CubeExtracter
 
 - - -
 ## How to Use
-$ \<Program name> [-p] \<CubeKey>
+```bash
+$ <Program name> [-p] <CubeKey>
+```
 
-- [-p]: Use Parallel Methods
+- `[-p]`: Use Parallel Methods
  
-- CubeKey
-  - red (레드 큐브)
-  - black (블랙 큐브)
-  - addi (에디셔널 큐브)
-  - strange (수상한 큐브)
-  - master (장인의 큐브)
-  - artisan (명장의 큐브)
+- `<CubeKey>`
+  - `red` (레드 큐브)
+  - `black` (블랙 큐브)
+  - `addi` (에디셔널 큐브)
+  - `strange` (수상한 큐브)
+  - `master` (장인의 큐브)
+  - `artisan` (명장의 큐브)
 
 - - -
 ## Extracted Json Data Info
- - ```String```:
-   - ```CubeName```
-   - ```GradeName```
-   - ```PartsTypeName```
-   - ```RequiredLevel```
+ - `String`:
+   - `CubeName`
+   - `GradeName`
+   - `PartsTypeName`
+   - `RequiredLevel`
  
- - ```Array```( ```Object```: ```String Name, String Probability```):	
-   - ```FirstLineOptions```
-   - ```SecondLineOptions```
-   - ```ThirdLineOptions```
+ - `Array`( `Object`: `String Name, String Probability`):	
+   - `FirstLineOptions`
+   - `SecondLineOptions`
+   - `ThirdLineOptions`
 
