@@ -24,3 +24,17 @@ $ \<Program name> [-p] \<CubeKey>
   - strange (수상한 큐브)
   - master (장인의 큐브)
   - artisan (명장의 큐브)
+
+- - -
+## Extracted Json Data Info
+ - ```String```:
+   - ```CubeName```
+   - ```GradeName```
+   - ```PartsTypeName```
+   - ```RequiredLevel```
+ 
+ - ```Array```( ```Object```: ```String Name, String Probability```):	
+   - ```FirstLineOptions```
+   - ```SecondLineOptions```
+   - ```ThirdLineOptions```
+
