@@ -1,8 +1,6 @@
 CubeExtracter
 ==============
-- goormIDE
- 
-- Ubuntu 18.04 LTS
+- goormIDE (Ubuntu 18.04 LTS)
 
 - .NET SDK 5.0.401
   - Selenium.WebDriver                    4.0.0-rc3
