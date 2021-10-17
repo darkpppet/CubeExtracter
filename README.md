@@ -15,7 +15,7 @@ CubeExtracter
 
 - - -
 ## How to Use
-$ <Program name> [-p] <CubeKey>
+$ \<Program name> [-p] \<CubeKey>
 
 - -p: Use Parallel Methods
  
