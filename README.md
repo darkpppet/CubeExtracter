@@ -33,6 +33,8 @@ $ <Program name> [-p] <CubeKey>
 
 - - -
 ## Extracted Json Data Info
+Extracted Json Files can be downloaded from Release
+
  - `String`:
    - `CubeName`
    - `GradeName`
