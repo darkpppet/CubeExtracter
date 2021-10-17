@@ -15,7 +15,7 @@ CubeExtracter
 
 - - -
 ## How to Use
-[Program name] [CubeKey]
+$ [Program name] [CubeKey]
 
 - CubeKey
   - red (레드 큐브)
