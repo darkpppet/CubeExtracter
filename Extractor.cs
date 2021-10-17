@@ -304,7 +304,7 @@ class CubeExtractorParallel : CubeExtractor
                             table.SecondLineOptions = secondLineOptions;
                             table.ThirdLineOptions = thirdLineOptions;
 
-                            table.SerializeThis($"{ExtractedPathBody}/{englishDic[table.GradeName]}/{englishDic[table.PartsTypeName]}", table.RequiredLevel.Replace("~", "to") + ".json");
+                            table.SerializeThis($"{ExtractedPathBody}/{englishDic[table.GradeName]}/{englishDic[table.PartsTypeName]}", englishDic[table.RequiredLevel] + ".json");
 
                             Console.WriteLine($"[{stopwatch.Elapsed.Minutes:D2}:{stopwatch.Elapsed.Seconds:D2}] [{CubeKey}] [{gradesArr[nowGradeCount]}]({nowGradeCount}/{gradeCount}) [{partsTypesArr[nowPartsTypeCount]}]({nowPartsTypeCount}/20) [{reqLevelsDic[reqLevelsArr[nowLevelCount]]}]({nowLevelCount + 1}/24): Complete");
 
