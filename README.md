@@ -1,5 +1,6 @@
 # CubeExtracter
-메이플 공홈 큐브 확률 표 데이터 긁어오는 프로그램
+
+**메이플 공홈 큐브 확률 표 데이터 긁어오는 프로그램**
 
 - - -
 ## Development Environment & Libraries
