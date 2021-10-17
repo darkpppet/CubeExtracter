@@ -15,7 +15,7 @@ CubeExtracter
 ## How to Use
 $ \<Program name> [-p] \<CubeKey>
 
-- -p: Use Parallel Methods
+- [-p]: Use Parallel Methods
  
 - CubeKey
   - red (레드 큐브)
